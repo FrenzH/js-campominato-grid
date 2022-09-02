@@ -20,7 +20,8 @@ function CellsGenerator (){
     
     for(let i=1 ; i <= 100 ; i++){
         const cells = document.createElement('div');
-        grid.append(cells)
+        grid.append(cells);
+        cells.classList.add('cells')
     }
 }
 

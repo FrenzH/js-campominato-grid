@@ -28,3 +28,10 @@
     flex-wrap: wrap;
 
   }
+
+  .cells{
+    border: 2px solid black;
+    width: calc(100% / 10);
+    background-color: coral;
+    height: 50px;
+  }
