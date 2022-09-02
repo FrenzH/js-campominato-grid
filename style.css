@@ -14,4 +14,17 @@
   
   /* content */
 
-  #generator-btn
+  #generator-btn{
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: aqua;
+    cursor: pointer;
+  }
+
+  #grid{
+    display: flex;
+    flex-wrap: wrap;
+
+  }
