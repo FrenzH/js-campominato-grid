@@ -23,11 +23,12 @@ button.addEventListener('click', CellsGenerator);
 function CellsGenerator (){
     
     grid.innerHTML='';
+    let arrnumb = genarray(100);
     for(let i=0 ; i < 100 ; i++){
         const cells = document.createElement('div');
         grid.append(cells);
         cells.classList.add('cells');
-        let arrnumb = genarray(100);
+        
         cells.innerHTML=arrnumb[i]
 
 
